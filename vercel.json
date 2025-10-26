@@ -4,5 +4,6 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "name": "pdf-splitter-pro"
 }
