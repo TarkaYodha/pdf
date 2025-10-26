@@ -12,12 +12,6 @@ const Index = memo(() => {
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-primary/20 rounded-full blur-3xl animate-pulse"></div>
         <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-accent/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
         <div className="absolute bottom-1/4 left-1/2 w-96 h-96 bg-secondary/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '2s' }}></div>
-        
-        {/* Floating particles */}
-        <div className="absolute top-20 left-20 w-2 h-2 bg-primary rounded-full animate-float"></div>
-        <div className="absolute top-40 right-32 w-3 h-3 bg-accent rounded-full animate-float" style={{ animationDelay: '0.5s' }}></div>
-        <div className="absolute bottom-40 left-40 w-2 h-2 bg-secondary rounded-full animate-float" style={{ animationDelay: '1.5s' }}></div>
-        <div className="absolute top-1/2 right-20 w-2 h-2 bg-primary rounded-full animate-float" style={{ animationDelay: '2.5s' }}></div>
       </div>
 
       {/* Premium Header */}
